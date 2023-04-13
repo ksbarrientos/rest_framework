@@ -6,4 +6,4 @@ class Post(models.Model):
     description = models.TextField()
     order = models.IntegerField()
     created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_created=True)
+    updated_at = models.DateTimeField(auto_created=True, blank=True, null=True)
