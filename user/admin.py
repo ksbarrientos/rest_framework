@@ -8,5 +8,5 @@ class UserAdmin(BaseUserAdmin):
         (None, {'fields': ('username', 'password')}),
         ('Informacion Personal', {'fields':('first_name', 'last_name', 'email')}),
         ('Permisos', {'fields': ('is_active', 'is_staff', 'is_superuser', 'groups', 'user_permissions')}),
-        ('Redes Sociales', {'fields': ('web_site',)}),
+        ('Redes Sociales', {'fields': ('web_site','twitter')}),
     )
